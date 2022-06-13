@@ -33,25 +33,25 @@ const App = () => {
                         <tr>
                             <td style={{ border: '1px solid #272727'}}>Name</td>
                             <td style={{ border: '1px solid #272727'}}>
-                                <p>{singleUser.name}</p>
+                                <p>{singleUser.id}</p>
                             </td>
                         </tr>
                         <tr>
                             <td style={{ border: '1px solid #272727'}}>Username</td>
-                            <td style={{ border: '1px solid #272727'}}>{singleUser.username}</td>
+                            <td style={{ border: '1px solid #272727'}}>{singleUser.type}</td>
                         </tr>
                         <tr>
                             <td style={{ border: '1px solid #272727'}}>Email</td>
-                            <td style={{ border: '1px solid #272727'}}>{singleUser.email}</td>
+                            <td style={{ border: '1px solid #272727'}}>{singleUser.price}</td>
                         </tr>
-                        <tr>
-                            <td style={{ border: '1px solid #272727'}}>Phone</td>
-                            <td style={{ border: '1px solid #272727'}}>{singleUser.phone}</td>
-                        </tr>
-                        <tr>
-                            <td style={{ border: '1px solid #272727'}}>Website</td>
-                            <td style={{ border: '1px solid #272727'}}>{singleUser.website}</td>
-                        </tr>
+//                         <tr>
+//                             <td style={{ border: '1px solid #272727'}}>Phone</td>
+//                             <td style={{ border: '1px solid #272727'}}>{singleUser.phone}</td>
+//                         </tr>
+//                         <tr>
+//                             <td style={{ border: '1px solid #272727'}}>Website</td>
+//                             <td style={{ border: '1px solid #272727'}}>{singleUser.website}</td>
+//                         </tr>
                     </tbody>
                 </table>
             )}
